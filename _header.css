@@ -1,0 +1,131 @@
+body {	
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.3;
+	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
+	background: #f7f9fa;
+}
+.hidden {
+	display: none;
+}
+.main-header {
+	width: 100%;
+	height: auto;
+	background: #f7f9fa;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+.main-header li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.main-headline h1 {
+	font-weight: 700;
+	font-size: @h1;
+}
+.headline-head-project {
+	padding-top: 60px;
+	
+}
+.cabinet img {
+	max-width: 100%;
+	height: auto;
+	margin-top: -5px;
+    margin-right: 5px;
+}
+.cabinet a {
+	font-weight: 400;
+	font-size: @h4;
+	color: #89a4bc;
+}
+.cabinet a:hover {
+	border-bottom: 1px dashed #89a4bc;
+}
+.phone-number-header p {
+	font-weight: 400;
+	font-size: @h4;
+	color: #666;
+}
+.phone-number-header a {
+	font-weight: 600;
+	font-size: 18px;
+	color: #4b4b4b;
+}
+.phone-number-header a:hover {
+	border-bottom: 1px dashed #4b4b4b;
+}
+.descript {
+	padding-top: 35px;
+	margin-bottom: 30px;
+}
+.descript p {
+	text-align: center;
+	color: #666;
+}
+.headline-wrap {
+	width: 100%;
+	min-height: 390px;
+	background: url(img/bg-header.jpg)no-repeat top center;
+}
+.offer {
+	text-align: center;
+	padding-top: 50px;
+}
+.offer ul {
+	padding-left: 0;
+}
+.offer p {
+	color: #fff;
+	margin-bottom: 45px;
+}
+.offer li {
+	display: block;
+}
+.offer span {
+	font-style: italic;
+	color: #fff;
+}
+.offer-time img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.shares-securely ul {
+	padding-top: 50px;
+	padding-left: 20px;
+}
+.shares-securely li {
+	display: inline-block;
+	vertical-align: top;
+}
+.shares-icon-wrap {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background: #89a4bc;
+	margin-right: 25px;		
+	position: relative;
+}
+.shares-icon-wrap img {
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	top: 17px;
+	left: 17px;
+}
+.shares-content-wrap {
+	max-width: 780px;
+}
+.shares-content-wrap p {
+	margin-bottom: 0;
+}
+.shares-content-wrap a {
+	font-weight: 600;
+	color: #303030;
+}
+.shares-content-wrap a:hover {
+	border-bottom: 1px dashed #303030;
+}

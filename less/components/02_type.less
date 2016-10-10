@@ -1,0 +1,93 @@
+p {
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h1 {
+	font-size: @h1; 
+	font-weight: 700; 
+	line-height: @lh; 
+	color: @white; 
+	margin: 0;
+}
+h2 {
+	font-size: @h2; 
+	font-weight: 700; 
+	line-height: @lh; 
+	color: @black; 
+	margin: @text-margin;
+}
+h3 {
+	font-size: @h3; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @blue; 
+	margin: @text-margin;
+}
+h4 {
+	font-size: @h4; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @white; 
+	margin: @text-margin;
+}
+h5 {
+	font-size: @h5; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @blue-2; 
+	margin: @text-margin;
+}
+h6 {
+	font-size: @h6; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @black; 
+	margin: @text-margin;
+}
+a {
+	text-decoration: none;
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+	background-color: transparent;
+  	webkit-transition: 0.35s ease;
+    -moz-transition: 0.35s ease;
+    -ms-transition: 0.35s ease;
+    -o-transition: 0.35s ease;
+    transition: 0.35s ease;
+	&:hover {
+		text-decoration: none;
+		outline: 0;
+	}
+	&:active {
+  		outline: 0;
+	}	
+}
+
+section {
+	.container>h2 {
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		color: #000;
+	}
+}
+
+.align-right {text-align: right;}
+.main-headline-one {
+	text-align: center;
+	font-size: @h1;	
+}
+.main-headline {
+	text-align: center;	
+	font-size: @h2;
+	color: @black;
+	padding-top: 45px;	
+}
+.main-headline-blue {
+	text-align: center;
+	padding-top: 25px;
+}

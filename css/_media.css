@@ -1,0 +1,238 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.about-project-descript img {
+		padding-left: 50%;
+		margin-left: -118px;
+		margin-bottom: 20px;
+	}
+	.about-project {
+		margin-bottom: 45px;
+	}
+	.column {
+		margin: 0 auto;
+	}
+	.invest-yorself-wrap span {
+    	display: inline-block;
+	}
+	.invest-yorself-wrap {
+		padding-top: 30px;
+	}
+	.btn-invest-yorself {
+		display: block;
+	}
+	.mass-media-contant img {
+		padding-top: 25px;
+	}
+	.important-questions-inner img {
+		padding-left: 50%;
+		margin-left: -21px;
+	}
+	.guestions-content {
+		padding-top: 15px;
+    	margin-left: 0;
+	}
+	.guestions-content h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.guestions-content p {
+		margin-bottom: 10px;
+	}
+	.important-questions {
+		margin-bottom: 30px;
+	}
+	.main-form__wrap .main-form {
+		width: 100%;
+	}
+	.main-form__wrap .input-group {
+		width: 100%;
+	}
+	.footer-logo {
+		padding-left: 50%;
+		margin-bottom: 15px;
+		margin-left: -47px;
+	}
+	.general-footer-wrap {
+    	padding-left: 0;
+	}
+	.top-nav__list li {
+		margin-right: 80px;
+	}
+	.descript-freedom {
+		text-align: center;
+		padding-left: 0;
+	}
+	.footer-content {
+		padding-left: 0;
+	}
+	.footer-content-inner-1 {
+		margin-bottom: 15px;
+	}
+	.footer-content .footer-content-inner-2 {
+		margin-left: 0;
+	}
+	.accumulate-stocks {
+		margin-bottom: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.licensies {
+		padding-top: 20px;
+	}
+	.top-nav__list li {
+    	margin-right: 40px;
+	}
+	.shares-securely ul {
+		padding-left: 0;
+	}
+	.shares-icon-wrap {
+		margin: 0 0 25px 45%;
+	}
+	.btn-card {
+    	min-width: 265px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header-logo {
+		text-align: center;
+	}
+	.cabinet {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.cabinet ul {
+		padding-left: 0;
+	}
+	.phone-number-header {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.phone-number-header {
+		padding-left: 0;
+	}
+	.headline-head-project {
+    	padding-top: 15px;
+	}
+	.shares-content-wrap p {
+		text-align: justify;
+	}
+	.invest-yorself-wrap h4::after {
+		margin: 20px 0 20px 0px;
+	}
+	.top-nav__list li a {
+		width: 135px;
+		display: block;
+		margin: 0 auto;
+	}
+	.top-nav__list li {
+		display: block;
+		text-align: center;
+		margin-right: 0;
+	}
+	.partners ul {
+		margin-left: 0;
+	}
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	.headline-head-project h1 {
+		line-height: 1;
+	}
+	.offer {
+		padding-top: 35px;
+	}
+	.offer p {
+		margin-bottom: 20px;
+	}
+	.shares-icon-wrap {
+    	margin: 0 0 25px 38%;
+	}
+	.hoard-money {
+		margin-bottom: 30px;
+	}
+	.about-project-descript img {
+		display: block;
+		padding-left: 0;
+		margin: 0 auto 20px;
+	}
+	.invest-yorself-wrap {
+     	padding-top: 10px;
+	}
+
+}
+
+@media only screen and (max-width : 320px) {
+	.mass-media-about {
+		margin-bottom: 0;
+	}
+	.mass-media-about h2 {
+		padding-top: 0;
+	}
+	.mass-media-contant-wrap {
+    	padding-top: 5px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
